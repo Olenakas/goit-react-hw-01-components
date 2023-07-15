@@ -50,7 +50,7 @@ margin: 0;
 
 export const UserStats = styled.ul`
 display: flex;
-align-items: center'
+align-items: center';
 `;
 
 export const List = styled.li`
