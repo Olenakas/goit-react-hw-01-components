@@ -16,7 +16,7 @@ color: #415556;
 `;
 
 export const Tr = styled.tr`
-  &:nth-child(even) {
+  &:nth-of-type(even) {
     background-color: #f3f6f9;
   }
 `;
