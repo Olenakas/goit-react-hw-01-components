@@ -1,5 +1,4 @@
 import ProfileList from '../Profile/ProfileList';
-import Section from '../Profile/Section';
 import Statistics from '../Statistics/Statistics';
 import FriendList from '../FriendList/FriendList';
 
@@ -15,8 +14,6 @@ export default function App() {
    return (      
       <div>      
          <Container>
-          <Section title='Homework 1'>         
-         </Section>
             <ProfileList items={users} />
             <Statistics title="Upload stats" stats={data} />
              <FriendList friends={friends} />
